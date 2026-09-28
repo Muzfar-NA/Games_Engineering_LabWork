@@ -1,3 +1,7 @@
+# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++
+# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,c++
+
+### C++ ###
 # Prerequisites
 *.d
 
@@ -11,18 +15,10 @@
 *.gch
 *.pch
 
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
 # Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-*.so.*
-
 
 # Fortran module files
 *.mod
@@ -39,31 +35,23 @@
 *.out
 *.app
 
-# Build directories
-build/
-Build/
-build-*/
+### VisualStudioCode ###
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
 
-# CMake generated files
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-Makefile
-install_manifest.txt
-compile_commands.json
+# Local History for Visual Studio Code
+.history/
 
-# Temporary files
-*.tmp
-*.log
-*.bak
-*.swp
+# Built Visual Studio Code Extensions
+*.vsix
 
-# vcpkg
-vcpkg_installed/
+### VisualStudioCode Patch ###
+# Ignore all local history of files
+.history
+.ionide
 
-# debug information files
-*.dwo
-
-# test output & cache
-Testing/
-.cache/
+# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,c++
